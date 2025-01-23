@@ -6,8 +6,7 @@ import org.junit.Test;
 
 public class MediaTest {
     @Test
-     public void validarAprovado(){
-        Media media = new Media();
+     public void validarAprovado(){        Media media = new Media();
         String resultado = media.calculandoMedia (5.0, 5.0);
         Assert.assertEquals("Aprovado", resultado);
     }
